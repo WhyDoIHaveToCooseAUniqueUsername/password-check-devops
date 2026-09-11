@@ -1,3 +1,5 @@
+from password_checker.py import is_valid_password
+
 assert is_valid_password("aaaaaa1A"), "aaaaaa1A"
 assert not is_valid_password("a"), "a"
 assert not is_valid_password("aaaaaaaa"), "aaaaaaaa"
