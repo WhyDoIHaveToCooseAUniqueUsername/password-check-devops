@@ -7,4 +7,4 @@ assert not is_valid_password("aaaaaaaA"), "aaaaaaaA"
 
 assert not is_valid_password("1"), "1"
 assert not is_valid_password("A"), "A"
-assert not is_valid_password("A1"), "A1"
+assert not is_valid_password("A1"), "A1" 
